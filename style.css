@@ -4,7 +4,7 @@
     box-sizing: border-box;
     align-items: center;
     cursor: pointer;
-    font-family: 'Outfit', sans-serif;;
+    font-family: 'Outfit', sans-serif;
 }
 body{
     height: 100vh;
@@ -23,6 +23,7 @@ body{
     padding: 1rem;
     border-radius: 1.7rem;
 }
+
 
 .card h1{
     font-size: 14px;
@@ -77,4 +78,14 @@ margin-left: 1rem;
     width:13.3rem;
     margin-top: .4rem;
     margin-left: 1rem;
+  }
+  @media screen and (max-width:375px){
+   .card ul {
+       gap:2rem;
+   }
+ 
+
+      .footer{
+          gap:0.2rem;
+      }
   }
